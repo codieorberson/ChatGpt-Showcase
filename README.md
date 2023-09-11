@@ -1,1 +1,1 @@
-# ChatGpt-Showcase
+# ChatGpt

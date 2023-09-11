@@ -1,0 +1,89 @@
+wRITE ME SOME PYTHON CODE
+Sure, here's a simple Python code snippet that prints "Hello, World!":
+
+```
+print("Hello, World!")
+```
+
+Here's another example that calculates the sum of two numbers inputted by the user:
+
+```python
+# Get user input
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
+
+# Calculate sum
+sum = num1 + num2
+
+# Print the result
+print("Sum:", sum)
+```
+
+Let me know if there's anything more specific you'd like help with!
+========================================
+wRITE ME SOME PYTHON CODE
+Certainly! Here are a few examples of Python code:
+
+1. Hello World! Program:
+```python
+print("Hello, World!")
+```
+
+2. Simple Calculator:
+```python
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
+
+sum = num1 + num2
+difference = num1 - num2
+product = num1 * num2
+quotient = num1 / num2
+
+print("Sum:", sum)
+print("Difference:", difference)
+print("Product:", product)
+print("Quotient:", quotient)
+```
+
+3. Fibonacci Series:
+```python
+def fibonacci(n):
+    fib_list = []
+    a, b = 0, 1
+    while len(fib_list) < n:
+        fib_list.append(a)
+        a, b = b, a + b
+    return fib_list
+
+# Example usage:
+print(fibonacci(10))
+```
+
+4. Prime Number Checker:
+```python
+def is_prime(num):
+    if num < 2:
+        return False
+    for i in range(2, int(num ** 0.5) + 1):
+        if num % i == 0:
+            return False
+    return True
+
+# Example usage:
+print(is_prime(17))  # Output: True
+```
+
+5. File Read and Write:
+```python
+# Writing to a file
+with open("sample.txt", "w") as file:
+    file.write("Hello, World!")
+
+# Reading from a file
+with open("sample.txt", "r") as file:
+    content = file.read()
+    print(content)
+```
+
+These are just a few examples to get you started. Python is a versatile programming language with many applications, so feel free to explore further!
+========================================
